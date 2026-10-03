@@ -56,5 +56,14 @@ Precision	~6–7 decimal digits	~15–16 decimal digits
     //float has about 6–7 significant digits of precision
     cout << setprecision(15) << b << endl;
 
-    return 0;
+
+//const keyword
+//specifies that a variable's value is constant and tells the compiler to prevernt anything from modifying it. Read only variable
+    const double pi=3.14159;
+    // pi=4.321; // This would cause a compilation error
+    double radius=10;
+    double circumference=2* pi * radius;
+    const int LIGHT_SPEED=299792458; //in meters per second
+    //height and width etc
+return 0;
 }
