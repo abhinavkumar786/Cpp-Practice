@@ -24,5 +24,12 @@ int main(){
     cout<<grade<<endl;
     cout<<dollarsign<<endl;
 
+    //boolen(true or false)
+    bool student=false;
+    bool power=true;
+    bool forsale=true;
+    cout<<student<<endl;
+    cout<<power<<endl;
+
     return 0;
 }
