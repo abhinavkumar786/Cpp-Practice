@@ -20,7 +20,9 @@ int main(){
     //single character
     char grade='A';
     char initial='B';
+    char dollarsign='$';
     cout<<grade<<endl;
-    
+    cout<<dollarsign<<endl;
+
     return 0;
 }
