@@ -22,6 +22,13 @@ cout << A::x;   // 5
 cout << B::x;   // 3
 //The :: means "look inside this namespace."
 
+//Just { } → creates a scope
+//The inner x exists only inside that { }.
+int x = 5;
 
+{
+    int x = 3;
+    cout << x;   // 3
+}
 
-
+cout << x;       // 5
