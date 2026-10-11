@@ -13,6 +13,6 @@ int main(){
     // pairlist_t pairlist;
     text_t name="john";
     number_t age=30;
-    cout<<name<<endl<<age;
+    cout<<name<<endl<<age<<endl;
 
 }
