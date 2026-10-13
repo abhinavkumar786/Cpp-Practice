@@ -15,6 +15,7 @@ int main(){
     cout<<y<<(char)100<<endl;
     int correct=8;
     int questions=10;
-    double score=correct/questions*100;
-
+    double score=correct/(double)questions*100;
+    cout<<score<<"%";
+    return 0;
 }
