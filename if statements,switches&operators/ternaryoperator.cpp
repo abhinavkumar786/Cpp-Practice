@@ -17,10 +17,17 @@ int main(){
     // int num=9;
     // num%2==0 ? cout<<"EVEN" : cout<<"ODD";
 
-    int num=8;
-    num%2 ? cout<<"ODD" : cout<<"EVEN";
+    // int num=8;
+    // num%2 ? cout<<"ODD" : cout<<"EVEN";
     // 1-->TRUE, 0-->FALSE
 
+
+    bool hungry = true;
+    hungry? cout<<"You are hungry" : cout<<"You are full";
+
+    // OR
+
+    cout<<(hungry ? "You are hungry" : "You are full");
 
     return 0;
 }
