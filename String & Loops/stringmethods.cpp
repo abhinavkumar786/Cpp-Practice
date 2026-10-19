@@ -12,14 +12,14 @@ int main(){
     string name;
     cout<<"Enter your name: ";
     getline(cin,name);
-    if(name.length()>12){
-        cout<<"your name can't be over 12 characters";
-    }
-
-    // if(name.empty()){
-    //     cout<<"You didn't enter your name\n";
+    // if(name.length()>12){
+    //     cout<<"your name can't be over 12 characters";
     // }
-    // else cout<<"Welcome "<<name<<endl;
+
+    if(name.empty()){
+        cout<<"You didn't enter your name\n";
+    }
+    else cout<<"Welcome "<<name<<endl;
 
 
     // name.clear();
