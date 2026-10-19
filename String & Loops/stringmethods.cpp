@@ -26,17 +26,17 @@ int main(){
     // cout<<"Welcome "<<name<<endl;
 
 
-    name.append("@gmail.com");
-    cout<<"Your username is now "<<name<<endl;
-    cout<<name.at(0)<<endl;
-    // name.insert(0,"@");
-    // cout<<name<<endl;
-    // cout<<name.find(" ")<<endl;
+    // name.append("@gmail.com");
+    // cout<<"Your username is now "<<name<<endl;
+    // cout<<name.at(0)<<endl;
+    name.insert(0,"@");
+    cout<<name<<endl;
+    cout<<name.find(" ")<<endl;
 
     //name.find(" ") returns string::npos when the substring is not found.
     // - string::npos is the maximum value of the unsigned type size_t.
     // - On your 64-bit system, that value is 18446744073709551615.
-//     cout<<name.erase(0,4);
+    cout<<name.erase(0,4);
 
     return 0;
 }
