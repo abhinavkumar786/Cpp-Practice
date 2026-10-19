@@ -22,14 +22,14 @@ int main(){
     // else cout<<"Welcome "<<name<<endl;
 
 
-    name.clear();
-    cout<<"Welcome "<<name<<endl;
+    // name.clear();
+    // cout<<"Welcome "<<name<<endl;
 
 
-    // name.append("@gmail.com");
-    // cout<<"Your username is now "<<name<<endl;
-    // cout<<name.at(0)<<endl;
-    // // name.insert(0,"@");
+    name.append("@gmail.com");
+    cout<<"Your username is now "<<name<<endl;
+    cout<<name.at(0)<<endl;
+    // name.insert(0,"@");
     // cout<<name<<endl;
     // cout<<name.find(" ")<<endl;
 
