@@ -7,10 +7,10 @@ int main(){
     //where you called the encompassing fucntion
     double length=5.0;
     double area=square(length);
-    double cubee=cube(length);
+    double volume=cube(length);
     //argument
     cout<<"Area: "<< area << "cm^2\n";
-    cout<<"Cubee: "<< cubee << "\n";
+    cout<<"Volume: "<< volume << "cm^3\n";
     return 0;
 }
 // void square(double length)//parameter
