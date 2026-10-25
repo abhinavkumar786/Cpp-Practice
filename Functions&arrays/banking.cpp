@@ -1,10 +1,11 @@
 #include<iostream>
+#include<iomanip>//for getting value upto two decimal places
 using namespace std;
 void showbalance(double balance);
 double deposit();
 double withdraw(double balance);
 int main(){
-    double balance=0;
+    double balance=10000;
     int choice;
     do{
     cout<<"Enter your choice\n";
@@ -28,14 +29,14 @@ int main(){
 }while(choice!=4);
     return 0;
 }
-void showbalance(){
-
+void showbalance(double balance){
+    cout << "Your balance is: ₹" << setprecision(2) << fixed << balance << "\n";
 }
 
-double deposit(double balance){
-
+double deposit(){
+    return 0;
 }
 
 double withdraw(double balance){
-    
+    return 0;
 }
