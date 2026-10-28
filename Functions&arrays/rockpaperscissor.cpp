@@ -13,9 +13,11 @@ int main(){
     player = getuserchoice();
     cout<<"Your choice: ";
     showchoice(player);
+
     computer=getcomputerchoice();
     cout<<"Computer choice: ";
     showchoice(computer);
+
     choosewinner(player,computer);
     return 0;
 }
@@ -61,11 +63,11 @@ void showchoice(char choice){
             break;
         
         case 'p':   
-            cout<<"paper";
+            cout<<"paper\n";
             break;
 
         case 's': 
-            cout<<"scissors";
+            cout<<"scissors\n";
             break;    
     }
     
@@ -73,7 +75,36 @@ void showchoice(char choice){
 
 void choosewinner(char player, char computer){
     switch(player){
-        case 'r':
+        case 'r':if(computer=='r'){
+                    cout<<"It's a tie!\n";
+                }
+                else if(computer=='p'){
+                    cout<<"You lose!\n";
+                }
+                else{
+                    cout<<"You win!\n";
+                }
+                break;
+        case 'p':if(computer=='p'){
+                    cout<<"It's a tie!\n";
+                }
+                else if(computer=='s'){
+                    cout<<"You lose!\n";
+                }
+                else{
+                    cout<<"You win!\n";
+                }
+                break;
+        case 's':if(computer=='s'){
+                    cout<<"It's a tie!\n";
+                }
+                else if(computer=='r'){
+                    cout<<"You lose!\n";
+                }
+                else{
+                    cout<<"You win!\n";
+                }
+                break;
     }
 }
 
