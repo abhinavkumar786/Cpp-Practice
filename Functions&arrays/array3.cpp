@@ -4,7 +4,7 @@ double getTotal(double prices[], int size);
 int main(){
     double prices[]={23.55, 45.9, 76.98, 65.98};
     int size=sizeof(prices)/sizeof(prices[0]);
-    double total=getTotal(prices.size);
+    double total=getTotal(prices,size);
     cout<< "₹" << total;
     //ctrl + alt + 4
     return 0;
