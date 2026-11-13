@@ -15,7 +15,8 @@ double getTotal(double prices[]){
     //     total+=i;
     // }
     //A pointer knows the memory address of the first element, but it doesn't know how many elements the original array contains.
-    
+    //neither we can use sizeof to calculate the no of elements in the for loop
+    for(int i=0;i<)
     
     return total;
 }
