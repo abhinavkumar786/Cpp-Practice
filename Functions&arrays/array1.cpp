@@ -32,7 +32,7 @@ int main(){
     cout<<sizeof(num)<<" bytes\n";
     cout<<sizeof(char)<<" bytes\n";
 
-    
+    cout<<sizeof(grades)/sizeof(char)<<" elements in grades array\n";
 
     return 0;
 }
