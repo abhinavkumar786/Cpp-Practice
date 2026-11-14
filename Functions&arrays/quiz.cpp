@@ -30,7 +30,7 @@ int main(){
         cin>>guess;
         guess = toupper(guess);
         if(guess == answerKey[i]){
-            cout<<"Correct\n";
+            cout<<"CORRECTgit st\n";
             score++;
         }
         else{
