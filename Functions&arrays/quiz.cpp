@@ -21,12 +21,26 @@ int main(){
     char answerKey[]={'C', 'B', 'A', 'B'};
     int size= sizeof(questions)/sizeof(questions[0]);
     char guess;
-    int score;
+    int score=0;
     for(int i=0;i<size;i++){
         cout<<questions[i]<<'\n';
         for(int j=0;j<sizeof(options[i])/sizeof(options[i][0]);j++){
             cout<<options[i][j]<<'\n';
         }
+        cin>>guess;
+        guess = toupper(guess);
+        if(guess == answerKey[i]){
+            cout<<"Correct\n";
+            score++;
+        }
+        else{
+            cout<<"Wrong\n";
+            cout<<"Answer: "<<answerKey[i]<<'\n';
+        }
     }
+    cout<<"Results: ";
+    cout<<"Correct Guesses: "<< score << '\n';
+    cout<<"# of QUESTIONS: "<< size << '\n';
+    cout<<"Score: "<< (score/(double(size)))*100 << "%";
     return 0;
 }
