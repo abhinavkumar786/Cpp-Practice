@@ -34,7 +34,7 @@ int main(){
             score++;
         }
         else{
-            cout<<"Wrong!!\n";
+            cout<<"WRONG!!\n";
             cout<<"Answer: "<<answerKey[i]<<'\n';
         }
     }
