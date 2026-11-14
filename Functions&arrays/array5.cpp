@@ -13,12 +13,18 @@ int main(){
 void sort(int array[], int size){
     int temp;
     for(int i=0;i<size-1;i++){
+        bool isSwap=false;
         for(int j=0;j<size-i-1;j++){
             if(array[j]>array[j+1]){
                 temp=array[j];
                 array[j]=array[j+1];
                 array[j+1]=temp;
+                isSwap=true;
             }
+        }
+        if(!isSwap){
+            return;
         }
     }
 }
+//the largest element has bubbled to the last position.
