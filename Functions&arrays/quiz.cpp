@@ -38,7 +38,9 @@ int main(){
             cout<<"Answer: "<<answerKey[i]<<'\n';
         }
     }
-    cout<<"Results: ";
+    cout<<"*************************\n";
+    cout<<"*        Results         *\n";
+    cout<<"**************************\n";
     cout<<"Correct Guesses: "<< score << '\n';
     cout<<"# of QUESTIONS: "<< size << '\n';
     cout<<"Score: "<< (score/(double(size)))*100 << "%";
