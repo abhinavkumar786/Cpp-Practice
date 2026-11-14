@@ -16,8 +16,12 @@ int main(){
         }
     }
     cout<<"You like the following food:\n";
-    for(string food: foods){
-        cout<<food<<"\n";
+    // for(string food: foods){// using this loop creates a empty space for those in which we havent entered any food
+    //     cout<<food<<"\n";
+    // }/
+// we will change the condition for loop as we do not want to print the empty in foods array
+    for(int i=0;!foods[i].empty();i++){
+        cout<<foods[i]<<'\n';
     }
     return 0;
 }
