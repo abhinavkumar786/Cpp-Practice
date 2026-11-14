@@ -7,9 +7,12 @@ int main(){
     //i dont want to put the q in the array thats why temp
     for(int i=0;i<size;i++){
         cout<<"Enter a food you like or 'q' to quit #"<< i+1 <<": ";
-        getline(cin,foods[i]);
-        if(foods[i]=="q"){
+        getline(cin,temp);
+        if(temp=="q"){
             break;
+        }
+        else{
+            foods[i]=temp;
         }
     }
     cout<<"You like the following food:\n";
