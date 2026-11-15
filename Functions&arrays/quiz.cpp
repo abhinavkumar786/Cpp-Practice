@@ -42,7 +42,7 @@ int main(){
     cout<<"*        Results         *\n";
     cout<<"**************************\n";
     cout<<"Correct Guesses: "<< score << '\n';
-    cout<<"# of QUESTIONS: "<< size << '\n';
+    cout<<"QUESTIONS: "<< size << '\n';
     cout<<"Score: "<< (score/(double(size)))*100 << "%";
     return 0;
 }
