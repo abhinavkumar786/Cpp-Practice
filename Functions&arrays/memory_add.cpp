@@ -9,5 +9,6 @@ int main(){
     cout<<&name<<'\n';
     cout<<&age<<'\n';
     cout<<&student<<'\n';
+    //all in hexadecimal
     return 0;
 }
