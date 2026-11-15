@@ -21,3 +21,4 @@ void swap(string &x, string &y){
     cout<<"X: "<<x<<'\n';
     cout<<"Y: "<<y<<'\n';
 }
+//memory address of both x will be same, similarly y.
