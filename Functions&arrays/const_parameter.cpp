@@ -15,3 +15,6 @@ void printInfo(const string &name, const int &age){
 }
 // int &a → You can modify the original variable.
 // const int &a → You can access the original variable but cannot modify it.
+// const parameter = parameter that is effectively read-only
+// code is more secure & conveys intent
+// useful for references and pointers
