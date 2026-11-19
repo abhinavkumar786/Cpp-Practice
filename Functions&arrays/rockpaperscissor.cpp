@@ -107,5 +107,5 @@ void choosewinner(char player, char computer){
                 break;
     }
 }
-
+//srand for random picks
 
