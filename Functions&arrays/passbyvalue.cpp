@@ -9,7 +9,7 @@ int main(){
     // x=y;
     // y=temp;
     swap(x,y);
-    cout<<"X: "<<x<<'\n';
+    cout<<"X: "<<x<<endl;
     cout<<"Y: "<<y<<endl;
     return 0;
 }
