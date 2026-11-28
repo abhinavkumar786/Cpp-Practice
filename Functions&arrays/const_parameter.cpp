@@ -8,8 +8,8 @@ int main(){
     return 0;
 }
 void printInfo(const string &name, const int &age){
-    name=" ";
-    age=0;
+    // name=" ";
+    // age=0;
     cout<<name<<'\n';
     cout<<age<<'\n';
 }
