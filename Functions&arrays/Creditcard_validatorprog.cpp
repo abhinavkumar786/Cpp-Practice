@@ -19,14 +19,14 @@ int main(){
 int getDigit(int number){
     //const int number
     //18         8        18/10=1   1%10=1       
-    return number % 10 + (number /10 %10);
+    // return number % 10 + (number /10 %10);
 
-    // int sum=0;
-    // while(number>0){
-    //     sum+=number%10;
-    //     number=number/10;
-    // }
-    //return sum;
+    int sum=0;
+    while(number>0){
+        sum+=number%10;
+        number=number/10;
+    }
+    return sum;
     
 }
 
