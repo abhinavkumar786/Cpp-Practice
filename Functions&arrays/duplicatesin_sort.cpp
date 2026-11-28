@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n,i=0,j=0;
+    int n,j=0;
     cout<<"enter no of elements: "<<"\n";
     cin>>n;
     int a[n];
@@ -21,3 +21,4 @@ int main(){
     }
     return 0;
 }
+//Number of unique elements= j + 1
